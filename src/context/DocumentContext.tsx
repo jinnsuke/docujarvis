@@ -1,7 +1,6 @@
-
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { Document, DocumentType } from '@/types/document';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 // Sample document data for the POC
 const sampleDocuments: Document[] = [
